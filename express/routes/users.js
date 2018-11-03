@@ -2,7 +2,8 @@ var express = require('express');
 var router = express.Router();
 var mongo = require('mongodb');
 var mongo_client = mongo.MongoClient;
-var url = 'mongodb://database:27017/';
+var url = 'mongodb://database:27017/'; // For docker implementation
+//var url = 'mongodb://localhost:27017/'; *For Local Setup*
 
 router.route('/')
     .post(function(req, res){
