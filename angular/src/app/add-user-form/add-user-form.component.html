@@ -1,0 +1,42 @@
+<div class="basic-container" style="text-align: center">
+  <form [formGroup]="registerForm">
+
+    <div class="form-group">
+    <mat-form-field>
+      <input type="text" formControlName="firstName" class="form-control" matInput placeholder="First Name" />
+    </mat-form-field>
+    </div>
+
+    <div class="form-group">
+      <mat-form-field>
+        <input type="text" formControlName="lastName" class="form-control" matInput placeholder="Last Name" />
+      </mat-form-field>
+    </div>
+
+    <div class="form-group">
+      <mat-form-field>
+        <input type="number" formControlName="age" class="form-control" matInput placeholder="Age" />
+      </mat-form-field>
+    </div>
+
+    <div class="form-group">
+      <mat-form-field>
+        <input type="number" formControlName="salary" class="form-control" matInput placeholder="Salary" />
+      </mat-form-field>
+    </div>
+
+    <div class="form-group">
+      <mat-form-field>
+        <input type="text" formControlName="city" class="form-control" matInput placeholder="City" />
+      </mat-form-field>
+    </div>
+
+    <div class="form-group">
+      <mat-form-field>
+        <input type="text" formControlName="address" class="form-control" matInput placeholder="Address" />
+      </mat-form-field>
+    </div>
+
+    <button mat-raised-button color="primary" style="margin-right:5px;" (click)="onSubmit()">Register</button>
+  </form>
+</div>

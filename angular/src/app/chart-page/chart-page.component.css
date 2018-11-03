@@ -1,0 +1,11 @@
+.center{
+  width: 75%;
+  margin: 10px auto;
+}
+
+.basic-container{
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

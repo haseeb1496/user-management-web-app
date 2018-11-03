@@ -1,0 +1,17 @@
+<mat-toolbar color="primary" role="heading">
+  <span>
+    User Management
+    </span>
+</mat-toolbar>
+<nav mat-tab-nav-bar>
+  <a mat-tab-link [routerLink]="['./create']">
+    Create User
+  </a>
+  <a mat-tab-link [routerLink]="['./view']">
+    View User
+  </a>
+  <a mat-tab-link [routerLink]="['./charts']">
+    Charts
+  </a>
+</nav>
+<router-outlet></router-outlet>
